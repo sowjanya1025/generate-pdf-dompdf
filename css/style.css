@@ -1,0 +1,125 @@
+header a{
+	color:white!important;
+}
+.md-form{
+	margin-top:0px!important;
+	margin-bottom:0px!important;
+}
+.navbar form .md-form input{
+	margin:0 5px 1px 0px!important;
+}
+header .md-form label{
+	color:white!important;
+}
+
+body{
+	font-size:0.9rem!important;
+	padding-bottom:100px;
+	background-color:white!important;
+}
+footer li{
+	list-style-type:none!important;
+	display:inline!important;
+	padding:0px 15px 0px 0px;
+}
+.terms{
+	text-align:justify
+}
+#footer-copyright{
+	text-align:right;
+}
+@media screen and (max-width:768px){
+	.navbar form .md-form input{
+		margin-top:10px!important;
+	}
+	#footer-copyright{
+		text-align:left;
+		padding:0px!important;
+	}
+	.lastname,.password{
+	    margin-top:20px!important;
+	}
+	.frgt_acct{
+	    margin-top:100px;
+	}
+}
+p{
+	color:#777!important;
+}
+.frgt_acct:hover{
+	text-decoration: underline!important;
+}
+.frgt_acct{
+	font-size:12px!important;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+	display:inline-block!important;
+	background:transparent;
+	border:0;
+}
+.errors-container{
+	background-color:#ffebe8!important;
+	border:1px solid #dd3c10;
+}
+.login input[type=text]:focus,input[type=password]:focus { 
+  background-color: #D3D8E8!important;
+}
+.md-form input[type=text]:focus, .md-form input[type=password]:focus{
+    background-color: #b2dfdb!important; 
+       } 
+.md-form input[type=date], .md-form input[type=datetime-local], .md-form input[type=email], .md-form input[type=number], .md-form input[type=password], .md-form input[type=search-md], .md-form input[type=search], .md-form input[type=tel], .md-form input[type=text], .md-form input[type=time], .md-form input[type=url], .md-form textarea.md-textarea{
+	border-bottom:1px solid #b2dfdb!important;
+}
+@media screen and (max-width:992px){
+    body{
+        padding-bottom:170px!important;
+    }    
+}
+@media screen and (max-width:768px){
+    body{
+        padding-bottom:170px!important;
+    }   
+    .page-footer{
+        display:none!important;
+    }
+    .top_player{
+        width:360px!important;
+        height:360px!important;
+    }
+}
+.sponsors_button{
+	list-style-type:none!important;
+	display:inline!important;
+}
+.sponsors_button li{
+	display:inline!important;
+}
+@media screen and (min-width:380px){
+    .nav_brand{
+        padding-left:25%!important;
+    }
+}
+.home-img{
+    width:50%!important;
+    text-align:center!important;
+}
+.table td {
+    vertical-align:center!important;    
+}
+@media screen and (max-width:447px){
+    .manStuff{
+        display:none!important;   
+    }
+     #optionalstuff{
+        display:block!important;   
+    }
+}
+@media screen and (min-width:448px){
+    .manStuff{
+        display:block!important;   
+    }
+    #optionalstuff{
+        display:none!important;   
+    }
+}
+
